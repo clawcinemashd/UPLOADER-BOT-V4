@@ -49,9 +49,9 @@ class Config(object):
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002047182005")
     
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1894915577"))
     
     TG_MIN_FILE_SIZE = 2097152000
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Claw_S2_Bot")
                                   
