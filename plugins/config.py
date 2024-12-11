@@ -11,11 +11,11 @@ logging.basicConfig(
 
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8041018021:AAErepUqiO8wITlxoTlwAoNztXNGf1FtGIs")
     
-    API_ID = int(os.environ.get("API_ID", ""))
+    API_ID = int(os.environ.get("API_ID", "22250562"))
     
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "07754d3bdc27193318ae5f6e6c8016af")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     
@@ -37,17 +37,17 @@ class Config(object):
     
     PROCESS_MAX_TIMEOUT = 0
     
-    DEF_WATER_MARK_FILE = "UploadLinkToFileBot"
+    DEF_WATER_MARK_FILE = "ClawMoviez"
     
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://claw-earning:5213680099@cluster0.je3b1k7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
     SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
     
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002329773144"))
     
     LOGGER = logging
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002047182005")
     
     OWNER_ID = int(os.environ.get("OWNER_ID", ""))
     
